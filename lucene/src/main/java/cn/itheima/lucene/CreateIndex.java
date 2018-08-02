@@ -27,6 +27,7 @@ public class CreateIndex {
 	public void creatIndex() {
 		try {
 			//创建写入索引库的对象
+			//左边eclipse加入注释
 			Directory directory = FSDirectory.open(Paths.get("D:\\luceneIndex"));
 			//使用的分词器
 			Analyzer analyzer = new HanLPAnalyzer();
